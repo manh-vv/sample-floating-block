@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "name": "sample-float-block",
+  "version": "1.0.0",
+  "description": "sample float block",
+  "main": "index.js",
+  "repository": "localhost:3008",
+  "author": "manhvu",
+  "license": "MIT",
+  "private": true
+}

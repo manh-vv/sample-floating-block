@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    sample floating block
+  </title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .content {
+      margin-top: 120px;
+      display: flex;
+      flex: auto;
+      align-items: flex-start;
+    }
+
+    .header {
+      height: 120px;
+      background: red;
+      position: fixed;
+      z-index: 50;
+      width: 100%;
+    }
+
+    .left {
+      width: 220px;
+      position: sticky;
+      top: 120px;
+      background-color: aquamarine;
+    }
+
+    .right {
+      background-color: #cc8888;
+      height: 1200px;
+      flex-grow: 1;
+    }
+
+    .footer {
+      height: 520px;
+      background: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      header
+    </div>
+
+    <div class="content">
+      <div class="left">
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+        left <br />
+      </div>
+
+      <div class="right">
+        right
+      </div>
+    </div>
+
+    <div class="footer">
+      bottom
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,10 +1,17 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
     "live-server": "^1.2.1"
   },
+  "dependencies": {},
   "name": "sample-float-block",
   "version": "1.0.0",
   "description": "sample float block",
